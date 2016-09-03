@@ -32,7 +32,7 @@ function onDeviceReady() {
     // Add map entries for each angular package
     // only because we're pinning the version with `ngVer`.
     ngPackageNames.forEach(function (pkgName) {
-        map['@angular/' + pkgName] = 'https://npmcdn.com/@angular/' + pkgName + ngVer;
+        map['@angular/' + pkgName] = 'https://unpkg.com/@angular/' + pkgName + ngVer;
     });
 
     // Add package entries for angular packages
